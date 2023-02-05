@@ -1,5 +1,48 @@
-# VMware-Virtual-initiative
+# Gettings Started
 
-The VMware Virtual Initiative teaches students about virtualization through hands-on experience in creating and managing a virtual environment. The program covers various IT topics through guided sessions and allows for peer-to-peer learning.
+> **Disclaimer** !!! <br> 
+The project is based off VMware Workstation on a windows environment. <br>
+<br> Issues/Configuration on Linux, MacOS, VMware Fusion, and VirtualBox have not be tested. (Planned for the Future)
+  
 
+## Download VMware
 
+For Now try the 30 day trial
+
+###  Windows
+https://www.vmware.com/products/workstation-pro.html
+
+### MacOS
+https://www.vmware.com/products/fusion.html
+
+### VMware alternative: VirtualBox
+https://www.virtualbox.org/
+
+## ISO
+VyOS https://vyos.net/get/nightly-builds/ <br>
+
+PFsense https://www.pfsense.org/download/ <br>
+
+Windows 11 https://www.microsoft.com/software-download/windows11 <br>
+
+Windows 10 https://www.microsoft.com/en-us/software-download/windows10 <br> 
+
+Windows Server https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022 <br>
+
+RHEL 9
+- [ ] Create Free user account <br>
+https://www.redhat.com/wapps/ugc/register.html?_flowId=register-flow&_flowExecutionKey=e1s1 <br>
+- [ ] Downloading RHEL iso <br>
+<img src="RedhatISO.gif> <br>
+
+Ubuntu https://ubuntu.com/download/desktop <br>
+
+Kali <br>
+- [ ] Path 1: Installer Image https://www.kali.org/get-kali/#kali-installer-images <br>
+- Requires configuration <br>
+- [ ] Path 2: Prebuild Virtual Machine https://www.kali.org/get-kali/#kali-virtual-machines <br>
+- Ready to Boot
+
+## User Manual
+
+https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/workstation-pro-16-user-guide.pdf
