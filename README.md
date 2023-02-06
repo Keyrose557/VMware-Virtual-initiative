@@ -2,7 +2,7 @@
 
 > **Disclaimer** !!! <br> 
 The project is based off VMware Workstation on a windows environment. <br>
-<br> Issues/Configuration on Linux, MacOS, VMware Fusion, and VirtualBox have not be tested. (Planned for the Future)
+<br> Issues/Configuration on Linux, MacOS, VMware Fusion, Hyper-V, and VirtualBox have not be tested. (Planned for the Future)
   
 
 ## Download VMware
@@ -17,6 +17,7 @@ https://www.vmware.com/products/fusion.html
 
 ### VMware alternative: VirtualBox
 https://www.virtualbox.org/
+- It free
 
 ## ISO
 VyOS https://vyos.net/get/nightly-builds/ <br>
