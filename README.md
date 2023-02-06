@@ -5,7 +5,7 @@ The VMware Virtual Initiative Project teaches students about virtualization thro
 ## Overview
 The VVI project will lead you through a virtual lab, to get you started on experimenting with different IT Technologies.
 
-### Modules 
+### Modules (More is on the way)
 
 - Getting Started
 - Intro To VMware
