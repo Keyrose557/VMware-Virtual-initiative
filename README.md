@@ -1,6 +1,6 @@
 # Intro to VMware
 
-## Getting familiar with VMware Workstaion.
+## Get familiar with VMware Workstaion.
 
 - [ ] Create a Folder for your virtual workspace on your pc, here is an example of what that could look like. <br>
 ### Lets stay organized 😊
@@ -39,10 +39,11 @@
 
 
 ## Random Knowledge Check: The Difference between Network address & Host Address
-- [ ] Given, IP address 10.10.10.0 with Subnet Mask 255.255.255.0 <br>
-Will a node, with an IP address work on a 10.10.11.0 ?
+- [ ] Given, Subnet IP 10.10.10.0 and Subnet Mask 255.255.255.0 <br>
+Can node A 10.10.11.23/24 ping node B IP 10.10.10.45/24 ?
+- Why/Why not? 
 
-#### HINT: IP addresses have two components
+#### HINT: An IP address has two components
 1. Network Address:<br>
 Identifies the Network 
 2. Host Address:<br>
