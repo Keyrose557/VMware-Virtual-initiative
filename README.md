@@ -1,14 +1,57 @@
-# VMware-Virtual-initiative
+# Intro to VMware
 
-The VMware Virtual Initiative teaches students about virtualization through hands-on experience in creating and managing a virtual environment. The program covers various IT topics through guided sessions and allows for peer-to-peer learning.
+## Getting familiar with VMware Workstaion.
 
-## Overview
-The VVI project will lead you through a virtual lab, to get you started on experimenting with different IT Technologies.
+- [ ] Create a Folder for your virtual workspace on your pc, here is an example of what that could look like. <br>
+### Lets stay organized 😊
+<img src="labspace.gif">
 
-### Modules
+## Virtual Network Editor
+- [ ] This is where you can configure the Virutal Network adapters.
+<img src="VNE.gif">
 
-- Getting Started 
-- Virtual HomeLab
+### Here is a simplified summary of VMware's virtual network adapters.
+
+#### Bridge
+
+- This will expose your VM to the Network your host machine is on. So just be careful.
+- This project will **NOT** be using the Bridge network adapter
+
+#### NAT
+- The VM will have its own private network, with DHCP. However, be aware the VM will share your host IP address for internet access.
+#### FUN FACT: NAT stands for Network Address Translation 🤓
+
+#### Host-only
+- This creates a private/isolated network within the host, with DHCP. Think of it as a private sandbox for your experiments. 🚀
+
+#### Subnet IP
+- [ ] Practice your Subnetting skills.
+- The Virtual Network Editor allows your to specify your Network address and Subnet Mask
+
+#### DHCP Settings...
+- [ ] Curious on how IP addresses are assigned in your Virtual Lab? **Dynamic Host Configuration Protocol**🤖
+- VMware Workstation by defaults sets you up for success. 
+- Specify your IP ranges for your Virtual Machines. (Not nessary for the project) 
+- Dont forget about the IP leases. This is how long a host's ip address are assigned. (Not nessary for the project)
+
+### I encourage you to reference the Vmware's User Guide for more details.
+- https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/workstation-pro-16-user-guide.pdf
+
+
+## Random Knowledge Check: The Difference between Network address & Host Address
+- [ ] Given, IP address 10.10.10.0 with Subnet Mask 255.255.255.0 <br>
+Will a node, with an IP address work on a 10.10.11.0 ?
+
+#### HINT: IP addresses have two components
+1. Network Address:<br>
+Identifies the Network 
+2. Host Address:<br>
+Identifies the Host
+
+
+
+
+
 
 
 
