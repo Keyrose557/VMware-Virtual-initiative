@@ -7,7 +7,8 @@ The VVI project will lead you through a virtual lab, to get you started on exper
 
 ### Modules
 
-- Getting Started 
+- Getting Started
+- Intro To VMware
 - Virtual HomeLab
 
 
