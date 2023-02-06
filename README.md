@@ -1,4 +1,4 @@
-# Gettings Started
+# Getting Started
 
 > **Disclaimer** !!! <br> 
 The project is based off VMware Workstation on a windows environment. <br>
@@ -7,7 +7,7 @@ The project is based off VMware Workstation on a windows environment. <br>
 
 ## Download VMware
 
-For Now try the 30 day trial
+Try the 30 day trial
 
 ###  Windows
 https://www.vmware.com/products/workstation-pro.html
