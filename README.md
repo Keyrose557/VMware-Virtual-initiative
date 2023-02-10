@@ -12,19 +12,32 @@
 - [ ] Configure Firewall policies
 
 ## Create a Virtual Router: VyOS
-#### New Virtual Machine Wizard: will guide you through the process
 <img src="vm1vyos.gif"> <br>
-- Select ISO
+### New Virtual Machine Wizard: will guide you through the process
+- Select your ISO VMware needs to know your OS and its version. If unsure, refernce supporting documents.
+-  Name your Virtual Machine, and Specify where it'll be saved.<br> 
+(User Preference)
+- Select Disk Capacity. If your unsure how much space you need start with recommeneded settings. You can always add more storage to a VM.<br>
+(User Preference) Store vs Split.
+- Select Virtual Hardware based on your use case.
 
-### Option 1: Minimal specifications
+## VyOS Virtual Hardware: 
+
+#### Option 1: Minimal specifications
 - Processor: 1 virtual CPU
 - Memory: 512 MB
 - Storage: 4GB 
 
-### Option 2: Recommended specifications
+#### Option 2: Recommended specifications
 - Processor: 1 virtual CPU
 - Memory: 1 GB
-- Storage: 10GB 
+- Storage: 10GB
+- Network Adapter: NAT
+- Network Adapter 2: LAN Segment (
+
+#### Adding 
+
+
 ### References:
 - https://vyos.io/solutions/vyos-on-vmware
 ## Installing VyOS
