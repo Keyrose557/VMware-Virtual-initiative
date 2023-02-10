@@ -12,7 +12,10 @@
 - [ ] Configure Firewall policies
 
 ## Create a Virtual Router: VyOS
+#### New Virtual Machine Wizard: will guide you through the process
 <img src="vm1vyos.gif"> <br>
+- Select ISO
+
 ### Option 1: Minimal specifications
 - Processor: 1 virtual CPU
 - Memory: 512 MB
