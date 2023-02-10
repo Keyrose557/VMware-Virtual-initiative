@@ -26,7 +26,15 @@ PFsense https://www.pfsense.org/download/ <br>
 
 Windows 11 https://www.microsoft.com/software-download/windows11 <br>
 
-Windows 10 https://www.microsoft.com/en-us/software-download/windows10 <br> 
+Windows 10 https://www.microsoft.com/en-us/software-download/windows10 <br>
+- [ ] Use Windows Media Creation Tool to get the ISO
+- Create installation media (ISO file)
+- Use the recommended  options
+- ISO file
+- Specify File location.
+- Your Finished 👍 
+<br>
+<img src="win10.gif"> <br>
 
 Windows Server https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022 <br>
 
