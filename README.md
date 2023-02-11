@@ -8,21 +8,26 @@
 
 ## Virtual Network Editor
 - [ ] This is where you can configure the Virutal Network adapters.
+- [ ] VMware by default handles the DHCP, Subnet IP , Netmask, IP ranges, and IP leases for your virtual environment.
 <img src="VNE.gif">
 
 ### Here is a simplified summary of VMware's virtual network adapters.
 
 #### Bridge
-
 - This will expose your VM to the Network your host machine is on. So just be careful.
 - This project will **NOT** be using the Bridge network adapter
 
 #### NAT
-- The VM will have its own private network, with DHCP. However, be aware the VM will share your host IP address for internet access.
+- The VM will have its own private network, with DHCP. However, the VM will share your host IP address for internet access.
 #### FUN FACT: NAT stands for Network Address Translation 🤓
 
 #### Host-only
 - This creates a private/isolated network within the host, with DHCP. Think of it as a private sandbox for your experiments. 🚀
+#### LAN Segments
+- The virtual machine uses a private network that can be shared with other virtual machines.
+- This network adapter does not provide a DHCP server for you.
+- You must manually configure IP addressing for virtual machines on a LAN segment.
+- You can either configure a DHCP server on the LAN segment to allocate IP addresses, or you can configure a fixed IP address for each virtual machine on the LAN segment. 
 
 #### Subnet IP
 - [ ] Practice your Subnetting skills.
