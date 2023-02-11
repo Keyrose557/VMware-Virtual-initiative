@@ -20,6 +20,7 @@
 - Select Disk Capacity. If your unsure how much space you need start with recommeneded settings. You can always add more storage to a VM.<br>
 (User Preference) Store vs Split.
 - Select Virtual Hardware based on your use case.
+- This project will use Option 2. 
 
 ## VyOS Virtual Hardware: 
 
@@ -33,7 +34,7 @@
 - Memory: 1 GB
 - Storage: 10GB
 - Network Adapter: NAT
-- Network Adapter 2: LAN Segment (
+- Network Adapter 2: LAN Segment (WAN)
 
 #### Adding 
 
