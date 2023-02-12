@@ -3,7 +3,7 @@
 ## Under Construction
 
 ## Overview: We are going to create and configure a basic Virtual Router
-- [ ] Create a virtual machine
+- [ ] Create a virtual router
 - [ ] Install VyOS 1.4
 - [ ] Configure network interfaces
 - [ ] Configure DHCP/DNS
