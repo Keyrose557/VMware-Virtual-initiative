@@ -5,8 +5,7 @@
 ## Overview: We are going to create and configure a basic Virtual Router
 - [ ] Create a virtual machine
 - [ ] Install VyOS 1.4
-- [ ] Configure a WAN interface
-- [ ] Configure a LAN interface
+- [ ] Configure a network interfaces
 - [ ] Configure DHCP/DNS
 - [ ] Configure NAT
 - [ ] Configure Firewall policies
