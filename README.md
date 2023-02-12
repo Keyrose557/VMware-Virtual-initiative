@@ -36,8 +36,6 @@
 - Network Adapter: NAT
 - Network Adapter 2: LAN Segment (WAN)
 
-#### Adding 
-
 ### References:
 - https://vyos.io/solutions/vyos-on-vmware
 
