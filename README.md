@@ -116,11 +116,12 @@
 - change the network adpater to `LAN segment: WAN` 
 - ping your router with command `ping 172.31.1.1`
 - Its a good idea to test connectivity
+### Basic Connectivity 🫠
+<img src="kalipre.gif"> <br>
 ## Troubleshooting steps
 - [ ] Restart VM
-- [ ] Check for Typos on VyOS
-- [ ] Verify IP addresses
+- [ ] Verify VyOS configuration `show config`
+- [ ] Verify VyOs interfaces `show interfaces'
 - [ ] Verify network adapter on VMware
-<img src="kalipre.gif">
-
+- [ ] Reference Documentation and Resources 
 
