@@ -121,7 +121,7 @@
 ## Troubleshooting steps
 - [ ] Restart VM
 - [ ] Verify VyOS configuration `show config`
-- [ ] Verify VyOs interfaces `show interfaces'
+- [ ] Verify VyOs interfaces `show interfaces`
 - [ ] Verify network adapter on VMware
 - [ ] Reference Documentation and Resources 
 
