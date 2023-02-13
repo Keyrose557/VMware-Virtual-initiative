@@ -72,4 +72,5 @@
 ## Troubleshooting steps
 - [ ] Restart VM
 - [ ] Verify network adapter on VMware
+- [ ] Verify Configuration
 - [ ] Reference Documentation and Resources 
