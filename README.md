@@ -93,6 +93,10 @@ WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
 -  Change Interface `DMZ` Source `DMZ net`
 -  Save & Apply
 
+### Note! Hardening is Required 
+- More on this in another section
+ 
+
 ## Troubleshooting steps
 - [ ] Restart VM
 - [ ] Verify network adapter on VMware
