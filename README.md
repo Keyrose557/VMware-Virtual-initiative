@@ -1,6 +1,6 @@
 # Virtual Network: Virtual Router
 
-## Under Construction
+## Under Review
 
 ## Overview: We are going to create and configure a basic Virtual Router
 - [ ] Create a virtual router
