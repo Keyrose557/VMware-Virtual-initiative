@@ -86,7 +86,7 @@
 `set firewall name OUTSIDE-IN rule 10 action 'accept'` <br>
 `set firewall name OUTSIDE-IN rule 10 state established 'enable'` <br>
 `set firewall name OUTSIDE-IN rule 10 state related 'enable'` <br>
-`set firewall name OUTSIDE-LOCAL default-action 'drop'` <br>
+<br> `set firewall name OUTSIDE-LOCAL default-action 'drop'` <br>
 `set firewall name OUTSIDE-LOCAL rule 10 action 'accept'` <br>
 `set firewall name OUTSIDE-LOCAL rule 10 state established 'enable'` <br>
 `set firewall name OUTSIDE-LOCAL rule 10 state related 'enable'` <br>
@@ -94,7 +94,7 @@
 `set firewall name OUTSIDE-LOCAL rule 20 icmp type-name 'echo-request'` <br>
 `set firewall name OUTSIDE-LOCAL rule 20 protocol 'icmp'` <br>
 `set firewall name OUTSIDE-LOCAL rule 20 state new 'enable'` <br>
-`set firewall interface eth0 in name 'OUTSIDE-IN'` <br>
+<br> `set firewall interface eth0 in name 'OUTSIDE-IN'` <br>
 `set firewall interface eth0 local name 'OUTSIDE-LOCAL'` <br>
 - [ ] Hardening <br>
 `set system login user myvyosuser authentication plaintext-password mysecurepassword`
