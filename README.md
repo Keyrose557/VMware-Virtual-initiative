@@ -1,9 +1,9 @@
 # Virtual Network: Virtual LAN Router 
 
 ## Apply what you've learned
-- [ ] Challenge: Verify Connectivity
+### Challenge: Test Connectivity
 - Create & Configure the LAN router
-- Create and Configure two VMs one for the DMZ and the other on LOCAL LAN
+- Create and Configure two VMs one for the DMZ and the other for LOCAL LAN
 - Use your VM's to ping from the the 10.0.1.0/24 network (DMZ) to the 192.168.1.0/24 (Local LAN)  
 
 ## Required Changes VyOS
