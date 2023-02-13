@@ -68,21 +68,30 @@
 ### VMware Snapshot (Recommended)
 
 ## Additional Configurations (Web GUI)
+> Pending Updates <br>
 - [ ] Enable Virtual Adapters
-- Navigate to Interfaces > Assignment
-- Select `+ Add` for em2 and em3
+- Navigate to `Interfaces` > `Assignment`
+- Select `+ Add` for `em2` and `em3`
 - Save
 > Note! Check out what VMware is doing with the network adapter using LAN Segment <br>
 WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
 - [ ] Rename Interfaces
-- Navigate to Interfaces > OPT1
+- Navigate to `Interfaces` > `OPT2`
 - Select `Enable Interface`
-- Description `LAN2` 
+- Description `DMZ` 
+- IPv4 Configuration Type `Static IPv4`
+- IPv4 Address `10.0.1.1` / `24`
 - Save
 - Apply Changes
-- Repeat for `OPT2` 
-- Description `DMZ`
-
+-  [ ] enable DHCP
+-  Navigate to `Services` > `DHCP Server`
+-  Select `DMZ` and `Enable`
+-  Save & Apply changes
+- [ ] Initial Firewall Rule
+-  Navigate to `Firewall` > `Rules` > `LAN`
+-  Navigate to `Actions` Select Box icon `Copy` on second rule
+-  Change Interface `DMZ` Source `DMZ net`
+-  Save & Apply
 
 ## Troubleshooting steps
 - [ ] Restart VM
