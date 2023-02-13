@@ -100,8 +100,8 @@ WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
 -  Add Destination Network `192.168.1.0` / `24` Gateway `LAN_GW-192.168.3.11`
 
 #### Note! Hardening is Required
-- More on this in another section
-- Think of the current configuration as a basic Lab environemnt.  
+- We'll Cover Securing the Network in another section
+- Think of the current configuration as a basic virutal Lab template.  
 
 ## Troubleshooting steps
 - [ ] Restart VM
