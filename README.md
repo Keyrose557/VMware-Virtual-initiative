@@ -1,6 +1,6 @@
 # Virtual Network: Virtual LAN Router 
 
-- [ ] Apply what you've learned
+## Apply what you've learned
 
 ## Required Changes
 - [ ] Virutal Machine Hardware
