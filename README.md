@@ -67,7 +67,7 @@
 
 ### VMware Snapshot (Recommended)
 
-## Additional Configurations
+## Additional Configurations ( on the way)
 
 ## Troubleshooting steps
 - [ ] Restart VM
