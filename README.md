@@ -16,8 +16,21 @@ The VVI project will lead you through a virtual lab, to get you started on exper
 
 - Getting Started
 - Intro To VMware
-- Virtual HomeLab
-
-
+- Virtual Network: Virtual Router
+- Virtual Network: Virtual Firewall
+- Virtual Network: Virtual LAN Router
+- Networking & Routing
+- Servers & Hosts
+- Active Directory/Domain Contoller
+- Certificate Authority (Pending)
+- Windows & Linux Integration
+- Smart Card Authentication
+- YubiKey Implementaion (experimental)
+- NVR deployment (experimental)
+- VOIP deploymeny (experimental)
+- Internal Email Server (Pending)
+- Internal Web Server (Pending)
+- Ticketing System (Pending)
+- Virtual NAS (Pending)
 
 
