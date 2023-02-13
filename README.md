@@ -10,8 +10,8 @@
 - eth0 = DHCP
 - eth1 = 192.168.1.1
 #### Tip
-- [ ] Use another VM to check LAN router's configured properly
-<img src="lan.PNG"> <br>
+- [ ] Use another VM to test connectivity <br>
+<br> <img src="lan.PNG"> <br>
 ### Good Luck
 <img src="hint.gif"> <br>
 - [ ] We'll Go over any questions/issues during our alloted time
