@@ -16,9 +16,9 @@ The VVI project will lead you through a virtual lab, to get you started on exper
 
 - Getting Started
 - Intro To VMware
-- Virtual Network: Virtual Router
-- Virtual Network: Virtual Firewall
-- Virtual Network: Virtual LAN Router
+- Virtual Network: Edge Router
+- Virtual Network: Firewall
+- Virtual Network: LAN Router
 - Networking & Routing
 - Servers & Hosts
 - Active Directory/Domain Contoller
