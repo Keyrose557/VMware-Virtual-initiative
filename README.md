@@ -27,7 +27,7 @@ The VVI project will lead you through a virtual lab, to get you started on exper
 - Smart Card Authentication
 - YubiKey Implementaion (experimental)
 - NVR deployment (experimental)
-- VOIP deploymeny (experimental)
+- VOIP deployment(experimental)
 - Internal Email Server (Pending)
 - Internal Web Server (Pending)
 - Ticketing System (Pending)
