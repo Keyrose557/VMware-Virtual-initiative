@@ -7,9 +7,14 @@
 - Network Adapter: LAN Segment (LAN1)
 - Network Adapter 2: LAN Segment (LOCAL LAN)
 - [ ] VyOS Configuration
-- eth1 `192.168.1.1/24`
-
-
+- eth0 = DHCP
+- eth1 = 192.168.1.1
+#### Tip
+- [ ] Use another VM to check LAN router's configured properly
+<img src="lan.PNG"> <br>
+### Good Luck
+<img src="hint.gif"> <br>
+- [ ] We'll Go over any questions/issues during our alloted time
 ### References:
 - [ ] https://vyos.io/solutions/vyos-on-vmware
 - [ ] [User Guide](https://docs.vyos.io/en/latest/index.html)
