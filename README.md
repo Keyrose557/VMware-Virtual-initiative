@@ -92,8 +92,7 @@ WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
 -  Navigate to `Actions` Select Box icon `Copy` on second rule
 -  Change Interface `DMZ` Source `DMZ net`
 -  Save & Apply
-
-## Note! Hardening is Required 
+#### Note! Hardening is Required
 - More on this in another section
  
 
