@@ -67,7 +67,22 @@
 
 ### VMware Snapshot (Recommended)
 
-## Additional Configurations ( on the way)
+## Additional Configurations (Web GUI)
+- [ ] Enable Virtual Adapters
+- Navigate to Interfaces > Assignment
+- Select `+ Add` for em2 and em3
+- Save
+> Note! Check out what VMware is doing with the network adapter using LAN Segment <br>
+WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
+- [ ] Rename Interfaces
+- Navigate to Interfaces > OPT1
+- Select `Enable Interface`
+- Description `LAN2` 
+- Save
+- Apply Changes
+- Repeat for `OPT2` 
+- Description `DMZ`
+
 
 ## Troubleshooting steps
 - [ ] Restart VM
