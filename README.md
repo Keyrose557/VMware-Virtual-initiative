@@ -82,19 +82,26 @@ WAN = em0 LAN1 = em1 LAN2 = em2 DMZ = em3 <br>
 - IPv4 Configuration Type `Static IPv4`
 - IPv4 Address `10.0.1.1` / `24`
 - Save
-- Apply Changes
+- Apply Changes <br>
 -  [ ] enable DHCP
 -  Navigate to `Services` > `DHCP Server`
 -  Select `DMZ` and `Enable`
--  Save & Apply changes
+-  Save & Apply changes <br>
 - [ ] Initial Firewall Rule
 -  Navigate to `Firewall` > `Rules` > `LAN`
 -  Navigate to `Actions` Select Box icon `Copy` on second rule
 -  Change Interface `DMZ` Source `DMZ net`
+-  Save & Apply <br>
+-  [ ] Traffic Routing
+-  Navigate to `System` > `Routing` > `Gateways`
+-  Add Interface `LAN` Name `LAN_GW` Gateway `192.168.3.11` (ip address of LAN router eth0)
 -  Save & Apply
+-  Navigate to `Static Routes`
+-  Add Destination Network `192.168.1.0` / `24` Gateway `LAN_GW-192.168.3.11`
+
 #### Note! Hardening is Required
 - More on this in another section
- 
+- Think of the current configuration as a basic Lab environemnt.  
 
 ## Troubleshooting steps
 - [ ] Restart VM
