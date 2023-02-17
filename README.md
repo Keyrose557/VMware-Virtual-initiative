@@ -1,4 +1,4 @@
-# Virtual Network: Virtual Router
+# Virtual Network: WAN Router
 
 ## Under Review
 
