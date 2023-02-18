@@ -19,7 +19,7 @@ The VVI project will lead you through a virtual lab, to get you started with you
 - Virtual Network: Edge Router
 - Virtual Network: Firewall
 - Virtual Network: LAN Router
-- Networking & Routing
+- Virtual Server: Windows Server 2022 
 - Servers & Hosts
 - Active Directory/Domain Contoller
 - Certificate Authority (Pending)
