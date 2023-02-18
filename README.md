@@ -20,7 +20,6 @@ The VVI project will lead you through a virtual lab, to get you started with you
 - Virtual Network: Firewall
 - Virtual Network: LAN Router
 - Virtual Server: Windows Server 2022 
-- Servers & Hosts
 - Active Directory/Domain Contoller
 - Certificate Authority (Pending)
 - Windows & Linux Integration
