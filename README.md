@@ -103,6 +103,7 @@
 - Use command `show` to verify configuration
 - Use command `commit` to apply changes
 - Use command `save` to save configuration
+### Challenge: Explore how you can secure your user credential 
 # A Basic Virtual Router
 <img src="router1.gif"> <br>
 ## Test Your Configuration <br>
