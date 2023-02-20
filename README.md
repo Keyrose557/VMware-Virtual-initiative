@@ -34,3 +34,4 @@ We are going to use Windows 2022 as our Active Directory, Domain Controller, and
 #### Desktop Icons
 - Select `Settings` > `Personalization` > ` Themes` > `Desktop icon settings`
 - [ ] Select `Computer` `Network` `Recycle Bin` `Contronl Panel`
+## Server Manager 
