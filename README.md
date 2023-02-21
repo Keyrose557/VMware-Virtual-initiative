@@ -1,6 +1,6 @@
 # VMware-Virtual-initiative (Under Construction)
 
-The VMware Virtual Initiative Project teaches students about virtualization through hands-on experience in creating and managing a virtual environment. The program covers various IT topics through guided sessions and allows for peer-to-peer learning.
+The VMware Virtual Initiative Project teaches students about virtualization through hands-on experience in creating and managing a virtual environment. My goal is to help students experiment with IT technologies and explore various IT topics through guided sessions to foster peer-to-peer learning.
 
 > Disclaimer !!!
 The project is based off VMware Workstation on a windows environment.<br>
