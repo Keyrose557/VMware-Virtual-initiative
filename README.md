@@ -41,7 +41,7 @@ Windows Server https://www.microsoft.com/en-us/evalcenter/evaluate-windows-serve
 RHEL 9
 - [ ] Create Free user account <br>
 https://www.redhat.com/wapps/ugc/register.html?_flowId=register-flow&_flowExecutionKey=e1s1 <br>
-- [ ] Downloading RHEL iso <br>
+- [ ] Download RHEL iso <br>
 
 <img src="RedhatISO.gif">
 
