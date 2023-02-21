@@ -3,7 +3,8 @@
 ## Overview
 - Install Windows Server 2022
 - Install VMware Tools
-- 
+- Configure a Static IP
+- Install Domain Service, DNS, and Certification Authority
 
 ## Windows Server 2022 Inital Setup
 - [ ] VMware Config
