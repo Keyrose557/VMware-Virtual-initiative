@@ -1,10 +1,9 @@
 # Virtual-Server P1: Windows Server 2022 (Under Construction)
 > Complete Virtual Network First!
 ## Overview
-We are going to use Windows 2022 as our Active Directory, Domain Controller, and Certificate Authority 
-- Create a Domain
-- Add Domain Users
-- Configure Smart Card Authentication (PIV)
+- Install Windows Server 2022
+- Install VMware Tools
+- 
 
 ## Windows Server 2022 Inital Setup
 - [ ] VMware Config
@@ -18,7 +17,7 @@ We are going to use Windows 2022 as our Active Directory, Domain Controller, and
 - Navigate to Windows File Explorer Select `DVD-VMware tools` > `Setup64`
 - In the Setup Wizard Select `Complete` > `Next` > `Install` > `Finish` > `Reboot`
 
-#### Check For Updates (Recommeneded)
+#### Check For Updates/SnapShot VM (Recommeneded)
 
 ### Rename This PC (Recommeneded)
 - Select `Settings` > `System` > `About` > `Rename this PC` for example `WIN-DC`
@@ -37,6 +36,7 @@ We are going to use Windows 2022 as our Active Directory, Domain Controller, and
 #### Desktop Icons
 - Select `Settings` > `Personalization` > ` Themes` > `Desktop icon settings`
 - [ ] Select `Computer` `Network` `Recycle Bin` `Contronl Panel`
+##### Snapshot VM (optional)
 ## Server Manager 
 - [ ] Set a Static IP 
 - Navigate to the `Server Manager` > `Local Server` > Select `IPv4 address assigned by DHCP,IPv6 enabled`
@@ -80,3 +80,4 @@ We are going to use Windows 2022 as our Active Directory, Domain Controller, and
 - Select `Next` > `Certification Authority` > `Enterprise CA` > `Root CA` > `Create a new private key`
 - Select `Next` > `Next` > `Next` > `Next` > `Configure`
 - Reboot
+##### Snapshot VM (Recommended)
