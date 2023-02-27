@@ -22,7 +22,7 @@
 ### VMware Device Passthrough
 <img src="smartc.gif"> <br>
 - In VMware's bottom right corner you can select a device to passthrough/connect to your vm
-- Your limited to one device at time per VM
+- Your limited to one device at a time per VM
 ## Windows Server SmartCard Reader Driver Fix <br>
 <img src="drive.gif"> <br>
 - [ ] `UMDF2` Microsoft Usbccid Smartcard Reader needs to replaced by `WUDF`
