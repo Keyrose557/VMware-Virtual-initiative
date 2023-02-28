@@ -39,6 +39,7 @@
 <img src="yutest.gif"> <br>
 - [ ] [YubiKey Test](https://demo.yubico.com/webauthn-technical/registration)
 - Note that you will have to physically touch your yubikey it will light up green
+- [ ] [Yubikey Guides](https://support.yubico.com/hc/en-us/articles/360013707820-YubiKey-Smart-Card-Deployment-Guide)
 
 ## Additional Downloads for PIV SmartCard
 - [ ] [PIVKey Admin Installer](https://pivkey.zendesk.com/hc/en-us/articles/203863995-PIVKey-Admin-Installer)
