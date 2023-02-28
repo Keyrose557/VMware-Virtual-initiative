@@ -33,11 +33,18 @@
 ## Test Your Configuration
 <img src="ctest.gif"> <br>
 - [ ] [PIVKey Test](https://pivkey.com/starttest/)
-- [ ] [c910 Documentation](https://pivkey.zendesk.com/hc/en-us)
 - Using your VM test that your smart card and reader is working properly
 - Note that you will have to physically insert your smart card. <br>
 
 <img src="yutest.gif"> <br>
 - [ ] [YubiKey Test](https://demo.yubico.com/webauthn-technical/registration)
 - Note that you will have to physically touch your yubikey it will light up green
+
+## Additional Downloads for PIV SmartCard
+- [ ] [PIVKey Admin Installer](https://pivkey.zendesk.com/hc/en-us/articles/203863995-PIVKey-Admin-Installer)
+- I highly recommened your read the documentation and the `README.txt` for more details
+- [Smart Card Documentation](https://pivkey.zendesk.com/hc/en-us)
+- Select `PIVkey Installer-Admin-7.1.0.17.exe` (required)
+- Select `vSEC_CMS_K2.0.exe` (optional)
+
 
