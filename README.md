@@ -10,7 +10,7 @@
 `usb.generic.allowHID = "TRUE"` <br>
 `usb.generic.allowLastHID = "TRUE"` <br>
 - Make your Domain Controller your VM's DNS server
-- [ ] Join Domain for Windows
+- [ ] Join Domain for Windows <br>
 <img src="dom1.gif"> <br>
 - Select `Settings` > `Accounts` > `Access work or school` > `Connect` > `Join this device to local Active Domain`
 - Domain Name `CISO.net` <br>
