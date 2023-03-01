@@ -68,6 +68,20 @@ Command `realm discover` `Name Of your Domain` <br>
 <img src="rhel6.PNG"> <br>
 - [ ] Verify Domain Users can Logon <br>
 <img src="rheld1.gif"> <br>
+## Preferences (Highly Recommended)
+- [ ] Easier Logins & Dynamic DNS
+- Command `sudo nano /etc/sssd/sssd.conf`
+- Add the following: <br>
+`default_domain_suffix = YourDomainName` <br>
+`ad_hostname = yourHostname.domainname` <br>
+`dyndns_update = True` <br>
+`dyndns_refresh_interval = 43200` <br>
+`dyndns_update_prt = True` <br>
+`dyndns_ttl = 3600` <br>
+`dyndns_auth = GSS-TSIG` <br>
+<img src="rhel7.PNG">
 
-## Preferences
 
+## References
+- [ ] [Rhel Integration with Windows Active Directory ](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/integrating_rhel_systems_directly_with_windows_active_directory/index)
+- [ ] [Rhel Domain Join article](https://www.redhat.com/sysadmin/linux-active-directory)
