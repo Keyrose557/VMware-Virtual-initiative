@@ -19,11 +19,11 @@ The VVI project will lead you through a virtual lab, to get you started with you
 - Virtual Network: Edge Router
 - Virtual Network: Firewall
 - Virtual Network: LAN Router
-- Virtual Server: Windows Server 2022 
-- Active Directory/Domain Contoller
-- Certificate Authority (Pending)
+- Virtual Server: Windows Server 2022
+- Virtual Server: Hardware Check
+- Virtual Server: PIV Smart Card 
+- Virtual Server: Group Policy Management
 - Windows & Linux Integration
-- Smart Card Authentication
 - YubiKey Implementaion (experimental)
 - NVR deployment (experimental)
 - VOIP deployment(experimental)
