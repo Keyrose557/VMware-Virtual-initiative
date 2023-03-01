@@ -21,7 +21,7 @@ Use an Administrative account to authorize the domain join <br>
 - [ ] [Create a Red Hat Account](https://sso.redhat.com/auth/realms/redhat-external/login-actions/registration?client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&tab_id=x5ikI1GYHSs) (Required)
 - [ ] [ISO Download](https://developers.redhat.com/products/rhel/download)
 - [ ] Create a VM
-- Connect to Red Hat
+- Connect to Red Hat <br>
 <img src="Rhel.PNG"> <br>
 - Software Selection <br>
 > Note! I encourage you to play with the additional options <br>
@@ -42,3 +42,32 @@ For instructional Purposes Only I used a short insecure password
 - run the command `yum update`
 - Reboot if Machine failes to update
 - Verify Red Hat Subscription 
+## Rhel Domain Prep <br>
+> Note! By default Network Manager on RHEL dynamically update the resolv.conf, You can disable this <br>
+- [ ] Our Rhel Workstation Needs to use our AD as a DNS Server <br>
+<img src="rhel3.PNG"> <br>
+- Method 1 <br>
+`nano /etc/resolv.conf` <br>
+Add `nameserver 192.168.1.10` <br>
+Go to Settings and Disable Automatc DNS <br>
+- Method 2 <br>
+Select `Settings` > `Network` > Select the Gear Icon in `Wired`> `IPv4` <br>
+Disable `Automatic` > In DNS specify your AD IP address <br>
+- Method 3 <br>
+[Rhel Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/manually-configuring-the-etc-resolv-conf-file_configuring-and-managing-networking#doc-wrapper)
+- Verify Rhel can find your Domain <br>
+Command `realm discover` `Name Of your Domain` <br>
+<img src="rhel5.PNG"> <br>
+- [ ] Install required Packages <br>
+- Command `yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python-utils`
+<img src="rhel4.PNG"> <br>
+## Rhel Domain Join <br>
+<img src="rheld.gif"> <br>
+- [ ] Verify Rhel can pull Domain User Credentials
+- Command `id [username]@[domainame]` <br>
+<img src="rhel6.PNG"> <br>
+- [ ] Verify Domain Users can Logon <br>
+<img src="rheld1.gif"> <br>
+
+## Preferences
+
