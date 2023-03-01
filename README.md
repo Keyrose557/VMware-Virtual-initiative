@@ -1,11 +1,17 @@
 # Virtual-Server P3: (Under Construction)
 ## Overview
+- Create Domain Users
 - Creating a CA Enrollment Agent
 - Creating Certificate Templates
 - Configure Digitial Certificate
 - Enrolling Certificates on behalf of another
-- Create Domain Users
 - Configure Smart Card Users
+## Create Domain Users
+- [ ] Server Manager 
+- Select `Tools` > `Active Directory Users and Computers`
+- Select `Users` > Right Click `Users` > `New` > `User`
+- Properties > Account > Check `Smart Card is required for interactive logon` (for smart card users) <br>
+Make four user accounts for testing
 ## Windows Certificate Authority
 - [ ] [Check List](https://pivkey.zendesk.com/hc/en-us/articles/203127999-Requirements-for-Issuing-Smart-Card-Certificates) 
 ## Enrollment Agent
@@ -69,5 +75,9 @@ Click `Ok` and Close Window <br>
 - Wait a second 
 <img src="piv1.gif">
 
-
+## Testing our Configuration
+<img src="pivt.gif"> <br>
+- [ ] Check the PIV Keys Certificates <br>
+### Challenge Join a Windows 10 VM to the Domain and login as a Domain User
+<img src="pivt2.gif">
 
