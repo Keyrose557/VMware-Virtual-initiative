@@ -22,9 +22,9 @@ The VVI project will lead you through a virtual lab, to get you started with you
 - Virtual Server: Windows Server 2022
 - Virtual Server: Hardware Check
 - Virtual Server: PIV Smart Card 
-- Virtual Server: Group Policy Management
-- Windows & Linux Integration
-- YubiKey Implementaion (experimental)
+- Virtual Server: Yubikey Implementation (Pending)
+- Virtual Server: Group Policy Management(Pending)
+- Virtual Hosts : Domain joins with Windows & Linux 
 - NVR deployment (experimental)
 - VOIP deployment(experimental)
 - Internal Email Server (Pending)
