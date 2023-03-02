@@ -97,6 +97,6 @@ Command `realm discover` `Name Of your Domain` <br>
 - [ ] [Rhel Domain Join article](https://www.redhat.com/sysadmin/linux-active-directory)
 
 ## Challenge Create A RHEL Server VM 
-- [ ] Deploy in the DMZ network
+- [ ] Deploy a Rhel Server in the DMZ network
 - [ ] Join the Domain 
 - [ ] Verify Domain User Authentication 
