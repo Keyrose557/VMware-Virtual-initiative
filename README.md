@@ -63,6 +63,7 @@ Disable `Automatic` > In DNS specify your AD IP address <br>
 [Rhel Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/manually-configuring-the-etc-resolv-conf-file_configuring-and-managing-networking#doc-wrapper)
 - Verify Rhel can find your Domain <br>
 Command `realm discover` `Name Of your Domain` <br>
+Use Command `realm --help` for more info <br>
 <img src="rhel5.PNG"> <br>
 - [ ] Install required Packages <br>
 - Command `yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python-utils`
