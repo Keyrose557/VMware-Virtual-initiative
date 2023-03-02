@@ -102,5 +102,4 @@ Use Command `realm --help` for more info <br>
 - [ ] Join the Domain 
 - [ ] Verify Domain User Authentication 
 - [ ] Discussion 
-- Should Host from the DMZ network be allowed to Join the Domain ?
-- What are some security considerations?
+- Why/Why not should Host from the DMZ network join the Domain ?
