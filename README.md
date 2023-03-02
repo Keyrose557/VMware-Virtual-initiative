@@ -97,7 +97,10 @@ Use Command `realm --help` for more info <br>
 - [ ] [Rhel Integration with Windows Active Directory ](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/integrating_rhel_systems_directly_with_windows_active_directory/index)
 - [ ] [Rhel Domain Join article](https://www.redhat.com/sysadmin/linux-active-directory)
 
-## Challenge Create A RHEL Server VM 
-- [ ] Deploy a Rhel Server in the DMZ network
+## Challenge Create A Server VM 
+- [ ] Deploy a Rhel Server and Windows server in the DMZ network
 - [ ] Join the Domain 
 - [ ] Verify Domain User Authentication 
+- [ ] Discussion 
+- Should Host from the DMZ network be allowed to Join the Domain ?
+- What are some security considerations?
