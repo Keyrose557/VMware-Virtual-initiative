@@ -79,8 +79,12 @@ Command `realm discover` `Name Of your Domain` <br>
 `dyndns_update_prt = True` <br>
 `dyndns_ttl = 3600` <br>
 `dyndns_auth = GSS-TSIG` <br>
-<img src="rhel7.PNG">
-
+<img src="rhel7.PNG"> <br>
+<img src="rheld2.gif"> <br>
+### Whats the diffrence
+- You make dont have to type username@domain.com, instead just the domain user name is fine
+- Check your Windows Sever DNS Manager, your Dynamic DNS updates are working. No maunal DNS records labor needed 💅🏾
+<img src="rhel8.PNG">
 
 ## References
 - [ ] [Rhel Integration with Windows Active Directory ](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/integrating_rhel_systems_directly_with_windows_active_directory/index)
