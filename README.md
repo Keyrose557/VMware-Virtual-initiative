@@ -1,4 +1,4 @@
-# Virtual-Server P3: PIV Smart Card (Under Construction)
+# Virtual-Server P4: Group Policy Management (Under Construction)
 ## Overview
 - Configure a GPO
 ## Group Policy Management
