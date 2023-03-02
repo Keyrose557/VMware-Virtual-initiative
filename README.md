@@ -3,7 +3,7 @@
 ## Overview
 - Domain Joins
 - Windows & Linux
-## Windows Domain Join
+## Windows Domain Prep & Join
 - [ ] Create a Windows 10 VM
 - LAN Segment `LOCAL LAN`
 - Enable Device Passthrough in VM `.vmx` File <br>
@@ -18,6 +18,11 @@ If not found, verify your DNS configurations
 - Domain Credentials <br>
 Use an Administrative account to authorize the domain join <br>
 ## Rhel Installation 
+- [ ] Create a Rhel VM
+- LAN Segment `LOCAL LAN`
+- Enable Device Passthrough in VM `.vmx` File <br>
+`usb.generic.allowHID = "TRUE"` <br>
+`usb.generic.allowLastHID = "TRUE"` <br>
 - [ ] [Create a Red Hat Account](https://sso.redhat.com/auth/realms/redhat-external/login-actions/registration?client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&tab_id=x5ikI1GYHSs) (Required)
 - [ ] [ISO Download](https://developers.redhat.com/products/rhel/download)
 - [ ] Create a VM
@@ -32,6 +37,7 @@ Use an Administrative account to authorize the domain join <br>
 - Network & Host Name <br>
 Hostname `RHEL9W` (Optional) <br>
 Name the host anything you'd like <br>
+Make your Domain Controller your VM's DNS server <br>
 - Root Password <br>
 `Y0uR$up3r$3cr3tP@ssW0rd!`<br>
 For instructional Purposes Only I used a short insecure password
@@ -89,3 +95,8 @@ Command `realm discover` `Name Of your Domain` <br>
 ## References
 - [ ] [Rhel Integration with Windows Active Directory ](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/integrating_rhel_systems_directly_with_windows_active_directory/index)
 - [ ] [Rhel Domain Join article](https://www.redhat.com/sysadmin/linux-active-directory)
+
+## Challenge Create A RHEL Server VM 
+- [ ] Deploy in the DMZ network
+- [ ] Join the Domain 
+- [ ] Verify Domain User Authentication 
