@@ -89,7 +89,7 @@ Command `realm discover` `Name Of your Domain` <br>
 <img src="rheld2.gif"> <br>
 ### Whats the diffrence
 - You make dont have to type `username@domain.com`, instead type the `domain_username` 😌
-- Check your Windows Sever DNS Manager, your Dynamic DNS updates are working. No maunal DNS records labor needed 💅🏾
+- Check your Windows Sever DNS Manager, your Dynamic DNS updates are working. No maunal DNS record labor needed 💅🏾
 <img src="rhel8.PNG">
 
 ## References
