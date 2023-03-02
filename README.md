@@ -80,7 +80,3 @@ Click `Ok` and Close Window <br>
 - [ ] Check the PIV Keys Certificates <br>
 ### Challenge Join a Windows 10 VM to the Domain and login as a Domain User
 <img src="pivt2.gif">
-
-## Group Policy Management
-- [ ] Think of the GPO as rules and policies for the Computers and Users in your domain
-- More on this later...
