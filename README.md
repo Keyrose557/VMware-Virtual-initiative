@@ -75,6 +75,8 @@ Use Command `realm --help` for more info <br>
 <img src="rhel6.PNG"> <br>
 - [ ] Verify Domain Users can Logon <br>
 <img src="rheld1.gif"> <br>
+- user 'domain_username@your_domain_name.net'
+- password 'your_domain_user_password'
 ## Preferences (Highly Recommended)
 - [ ] Easier Logins & Dynamic DNS
 - Command `sudo nano /etc/sssd/sssd.conf`
