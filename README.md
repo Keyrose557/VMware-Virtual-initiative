@@ -1,3 +1,3 @@
-# Virtual-Host P2: Voice over Internet Protocol (Under Construction)
+# NAS P1: Network Attached Storage (Under Construction)
 ## Overview
-- Deploy an VOIP phone system
+- Deploy a NAS
