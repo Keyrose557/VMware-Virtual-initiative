@@ -88,6 +88,7 @@ Use Command `realm --help` for more info <br>
 `dyndns_update_prt = True` <br>
 `dyndns_ttl = 3600` <br>
 `dyndns_auth = GSS-TSIG` <br>
+- You will need to use command `systemctl restart sssd` to ensure changes are applied
 <img src="rhel7.PNG"> <br>
 <img src="rheld2.gif"> <br>
 ### Whats the diffrence
@@ -99,9 +100,13 @@ Use Command `realm --help` for more info <br>
 - [ ] [Rhel Integration with Windows Active Directory ](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/integrating_rhel_systems_directly_with_windows_active_directory/index)
 - [ ] [Rhel Domain Join article](https://www.redhat.com/sysadmin/linux-active-directory)
 
-## Challenge Create A Server VM 
+## Challenge Create A Server VM & Join the Domain <br>
+<img src="adhint2.gif"> <br>
+- Heres a hint: DNS is your best friend or worst enemey 
 - [ ] Deploy a Rhel Server and Windows server in the DMZ network
 - [ ] Join the Domain 
-- [ ] Verify Domain User Authentication 
-- [ ] Discussion 
+- [ ] Verify Domain User Authentication <br>
+<img src="adhint.gif"> <br>
+- Windows server Domain join is slightly different
+## Discussion 
 - Why join a Domain ?
