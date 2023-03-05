@@ -78,5 +78,10 @@ Click `Ok` and Close Window <br>
 ## Testing our Configuration
 <img src="pivt.gif"> <br>
 - [ ] Check the PIV Keys Certificates <br>
-### Challenge Join a Windows 10 VM to the Domain and login as a Domain User
-<img src="pivt2.gif">
+### Challenge: Join a Windows 10 VM to the Domain and login as a Domain User
+<img src="pivt2.gif"> <br>
+### Challenge 2: Implement an alternative 2FA in your Virtual Environment <br>
+## Disscussion 
+- What is Two-Factor-Authentication (2FA) ?
+- What are the different types of 2FA
+- Why do we care about Digital Certificates
