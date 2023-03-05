@@ -106,8 +106,9 @@ Use Command `realm --help` for more info <br>
 - [ ] Deploy a Rhel Server and Windows server in the DMZ network
 - [ ] Join the Domain 
 - [ ] Verify Domain User Authentication <br>
+### Windows server Domain join is slightly different
 <img src="adhint.gif"> <br>
-- Windows server Domain join is slightly different
+
 ## Discussion 
 - Why join a Domain ?
 - What is DNS ?
