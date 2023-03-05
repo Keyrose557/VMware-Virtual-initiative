@@ -1,3 +1,3 @@
-# Penetration Test P1:(Under Construction)
+# Security Operation Center (SOC) P1:(Under Construction)
 ## Overview
-- Test your Network security
+- Configure a DIY SOC
