@@ -110,3 +110,5 @@ Use Command `realm --help` for more info <br>
 - Windows server Domain join is slightly different
 ## Discussion 
 - Why join a Domain ?
+- What is DNS ?
+- How can we apply and develop our troubleshooting techniques ? 
