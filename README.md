@@ -1,3 +1,3 @@
-# Virtual-Host P2: Network Video Recorder(Under Construction)
+# Virtual-Host P2: Voice over Internet Protocol (Under Construction)
 ## Overview
-- Deploy an IP security camera
+- Deploy an VOIP phone system
