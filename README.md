@@ -2,3 +2,4 @@
 ## Overview
 - Introduction to WAMP and LAMP 
 - Deploy OS-ticket
+- Deploy Website
