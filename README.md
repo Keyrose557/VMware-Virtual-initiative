@@ -1,4 +1,3 @@
-# Virtual-Server P5: Linux webserver  (Under Construction)
+# Virtual-Host P2: Network Video Recorder(Under Construction)
 ## Overview
-- Introduction to LAMP 
-- Deploy Website
+- Deploy an IP security camera
