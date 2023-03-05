@@ -102,7 +102,7 @@ Use Command `realm --help` for more info <br>
 
 ## Challenge Create A Server VM & Join the Domain <br>
 <img src="adhint2.gif"> <br>
-- Heres a hint: DNS is your best friend or worst enemey 
+- Heres a hint: DNS is your best friend
 - [ ] Deploy a Rhel Server and Windows server in the DMZ network
 - [ ] Join the Domain 
 - [ ] Verify Domain User Authentication <br>
