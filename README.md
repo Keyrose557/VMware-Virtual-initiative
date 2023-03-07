@@ -92,7 +92,7 @@ Use Command `realm --help` for more info <br>
 <img src="rhel7.PNG"> <br>
 <img src="rheld2.gif"> <br>
 ### Whats the diffrence
-- You make dont have to type `username@domain.com`, instead type just the `domain_username` 😌
+- You dont have to type `username@domain.com` we now just type our `domain_username` 😌
 - Check your Windows Sever DNS Manager, your Dynamic DNS updates are working. No maunal DNS record labor needed 💅🏾
 <img src="rhel8.PNG">
 
