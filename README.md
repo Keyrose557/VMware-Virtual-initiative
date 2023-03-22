@@ -25,8 +25,8 @@ The VVI project will lead you through a virtual lab, to get you started with you
 - Virtual Server: Yubikey Implementation (Pending)
 - Virtual Server: Group Policy Management(Pending)
 - Virtual Hosts : Domain joins with Windows & Linux 
-- NVR deployment (experimental)
-- VOIP deployment(experimental)
+- NVR deployment (Pending)
+- VOIP deployment(Pending)
 - Internal Email Server (Pending)
 - Internal Web Server (Pending)
 - Ticketing System (Pending)
