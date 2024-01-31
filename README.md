@@ -14,7 +14,7 @@ Issues/Configurations on Linux, MacOS, VMware Fusion, Hyper-V, and VirtualBox ha
 <img src="navi.gif">
 
 ## Overview
-The VVI project will lead you through a virtual lab, to get you started with your very own virtual Homelab 
+The VI project will lead you through a virtual lab, to get you started with your very own virtual Homelab 
 
 ### Modules (More is on the way)
 
