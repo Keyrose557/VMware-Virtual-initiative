@@ -1,6 +1,10 @@
 # VMware-Virtual-initiative (Under Construction)
 
-The VMware Virtual Initiative Project teaches students about virtualization through hands-on experience in creating and managing a virtual environment. My goal is to help students experiment with IT technologies and explore various IT topics through guided sessions to foster peer-to-peer learning.
+Project Vi, inspired by insights learned from an Enterprise System Administration cyber challenge, is a pioneering Virtual Initiative aimed at educating students on the practical use of virtualization. This project focuses on leveraging a homelab environment to provide hands-on experience in IT technologies.
+
+The primary objective of Project Vi is to empower students with the knowledge and skills necessary to experiment with various IT technologies. By doing so, it opens avenues for them to delve into various cybersecurity topics. The project is designed to facilitate guided sessions, promoting an interactive learning environment that fosters peer-to-peer learning and collaboration.
+
+Through this initiative, students will gain not just theoretical knowledge, but also valuable practical skills by engaging directly with the technologies they are studying. This approach is intended to inspire a deeper understanding of IT and cybersecurity, encouraging students to explore, innovate, and expand their skillset in a supportive and dynamic learning environment.
 
 > Disclaimer !!!
 The project is based off VMware Workstation on a windows environment.<br>
