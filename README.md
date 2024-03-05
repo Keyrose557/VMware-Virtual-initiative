@@ -1,4 +1,4 @@
-# VMware-Virtual-initiative (Under Construction)
+# VMware-Virtual-initiative
 
 Project Vi, inspired by insights learned from an Enterprise System Administration cyber challenge, is a pioneering Virtual Initiative aimed at educating students on the practical use of virtualization. This project focuses on leveraging a homelab environment to provide hands-on experience in IT technologies.
 
