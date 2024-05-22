@@ -875,15 +875,16 @@ Occasionally, We'll include a challenge to facilitate a discussion and collabora
 
 - Software Selection (I encourage you to explore the options)
   - Basic Environment `Workstation`
-  - Additional Software `Smart Card Support`
+  - Additional Software `Smart Card Support` (optional)
 - Network & Host Name
-  - Hostname `RHEL9W` (OptionalName the host anything you'd like)
+  - Hostname `RHEL9W` (Optional Name the host anything you'd like)
   - Make your Domain Controller your VM's DNS server
 - Root Password `Y0uR$up3r$3cr3tP@ssW0rd!`
 For instructional Purposes Only I used a short insecure password
 - Begin Installation
 
 - [ ] Red Hat Registration Check
+
   ![example](/media/images/rhel2.png)
   - Verify your RHEL VM can update packages
   - run the command
